@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E1E1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Smart Indicator"
+        android:textSize="16sp" />
+
+
+    <heli.mrc.smartIndicator.SmartIndicator
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#0080C0"
+        android:minHeight="60dp"
+        app:accent_Color="#FFFF00"
+        app:indicatorHeight="4dp"
+        app:textLightColor="#F0F0F0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="APPLE"
+            android:textSize="16sp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PEAR"
+            android:textSize="16sp"></TextView>
+
+
+    </heli.mrc.smartIndicator.SmartIndicator>
+
+
+    <heli.mrc.smartIndicator.SmartIndicator
+        android:id="@+id/smartIndicator2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF0000"
+        android:minHeight="60dp"
+        app:accent_Color="#F0F0F0"
+        app:indicatorHeight="2.5dp"
+        app:textLightColor="#ff212121">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ok"
+            android:textSize="16sp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NO"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="None"
+            android:textSize="16sp"></TextView>
+
+    </heli.mrc.smartIndicator.SmartIndicator>
+
+    <heli.mrc.smartIndicator.SmartIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="60dp"
+        app:textLightColor="#8080FF"
+>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="提莫"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="瑟提"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="婕拉"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="维鲁斯"
+            android:textSize="16sp"></TextView>
+
+    </heli.mrc.smartIndicator.SmartIndicator>
+
+    <heli.mrc.smartIndicator.SmartIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#008000"
+        android:minHeight="60dp"
+        app:accent_Color="#FFFFFF"
+        app:indicatorHeight="2.5dp"
+        app:textLightColor="#FFFF00">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="钉钉"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="微信"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="陌陌"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="QQ"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="脉脉"
+            android:textSize="16sp"></TextView>
+
+    </heli.mrc.smartIndicator.SmartIndicator>
+
+</LinearLayout>

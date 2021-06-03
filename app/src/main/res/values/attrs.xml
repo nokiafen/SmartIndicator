@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="smart_indicator">
+        <!--添加属性-->
+        <attr name="accent_Color" format="color" />
+        <attr name="textLightColor" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PieChart">
+        <attr name="showText" format="boolean" />
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

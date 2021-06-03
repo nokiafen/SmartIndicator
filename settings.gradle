@@ -1,0 +1,4 @@
+
+include ':mylibrary'
+include ':app'
+rootProject.name = "smart-test-indicator"
