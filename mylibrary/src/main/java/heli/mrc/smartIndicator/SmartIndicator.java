@@ -214,4 +214,12 @@ public class SmartIndicator extends LinearLayout implements  OnTouchListener{
         darkAccentColor =  Color.valueOf(mTextDarkColor);
         invalidate();
     }
+
+    public void  setSelection(int index) {
+        if ((index<0||index>=getChildCount())) {
+             throw  new RuntimeException("index out of range, check your index");
+        }
+        pickedViewPosition = index;
+        invalidate();
+    }
 }

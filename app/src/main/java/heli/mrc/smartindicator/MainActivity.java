@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         });
         ((SmartIndicator)findViewById(R.id.smartIndicator2)).setTextLightColor(Color.YELLOW);
         ((SmartIndicator)findViewById(R.id.smartIndicator2)).setAccentColor(Color.GREEN);
+        ((SmartIndicator)findViewById(R.id.smartIndicator2)).setSelection(2);
     }
 
 

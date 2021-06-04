@@ -18,16 +18,16 @@ smart-text-indicator a tool to add indicators for your textView;.
 
    implementation project(path: ':mylibrary')
 
-    Solution 2: to be done
+    Solution 2: to be done...
 
 More on the  configuration can be found in the Project.
 
 Usage
 -----
-Define in xml like as follow
+Define in xml like as follow、just wrap your textview with smartindicator
 Sample code:
 ```xml
-           <heli.mrc.smartIndicator.SmartIndicator
+        <heli.mrc.smartIndicator.SmartIndicator
         android:id="@+id/t1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,6 +63,7 @@ Here is sample code:
 ```java
         ((SmartIndicator)findViewById(R.id.smartIndicator2)).setTextLightColor(Color.YELLOW);
         ((SmartIndicator)findViewById(R.id.smartIndicator2)).setAccentColor(Color.GREEN);
+        ((SmartIndicator)findViewById(R.id.smartIndicator2)).setSelection(2);
 ```
 If you dont specify indicatorHeight  the default values will be used
 
