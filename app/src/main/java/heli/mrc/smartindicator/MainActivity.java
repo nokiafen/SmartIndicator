@@ -1,6 +1,7 @@
 package heli.mrc.smartindicator;
 
 import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplication(),"component" + index+ " checked ",Toast.LENGTH_SHORT).show();
             }
         });
+        ((SmartIndicator)findViewById(R.id.smartIndicator2)).setTextLightColor(Color.YELLOW);
+        ((SmartIndicator)findViewById(R.id.smartIndicator2)).setAccentColor(Color.GREEN);
     }
 
 
